@@ -1,45 +1,32 @@
-# Mi Primera API FastAPI - Bootcamp
+````markdown
+# Mi Primera API FastAPI
 
-**👤 Desarrollador**: Wilson Esteban Ontibón Calderón
-**📧 Email**: sanzspool@gmail.com
-**� Privacidad**: Email configurado según mejores prácticas de GitHub
-**�📅 Fecha de creación**: 2025-08-20 13:14:01
-**📂 Ruta del proyecto**: /c/Users/Aprendiz/Desktop/death-on-two-legs/miprimeraApi
-**💻 Equipo de trabajo**: BOGDFPCGMF4156
+## ¿Qué hace?
 
-## 🔧 Configuración Local
+Una API básica creada en el Bootcamp FastAPI Semana 1.
 
-Este proyecto está configurado para trabajo en equipo compartido:
-
-- **Entorno virtual aislado**: `venv-personal/`
-- **Configuración Git local**: Solo para este proyecto
-- **Dependencias independientes**: No afecta otras instalaciones
-
-## 🚀 Instalación y Ejecución
+## ¿Cómo ejecutar?
 
 ```bash
-# 1. Activar entorno virtual personal
-source venv-personal/bin/activate
-
-# 2. Instalar dependencias (si es necesario)
 pip install -r requirements.txt
-
-# 3. Ejecutar servidor de desarrollo
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload
 ```
+````
 
-## 📝 Notas del Desarrollador
+## Endpoints
 
-- **Configuración Git**: Local únicamente, no afecta configuración global
-- **Email de GitHub**: Configurado con email privado para proteger información personal
-- **Entorno aislado**: Todas las dependencias en venv-personal/
-- **Puerto por defecto**: 8000 (cambiar si hay conflictos)
-- **Estado del bootcamp**: Semana 1 - Configuración inicial
+- `/`: Mensaje de bienvenida
+- `/info`: Información de la API
+- `/my-profile`: Mi perfil personal
 
-## 🛠️ Troubleshooting Personal
+## Documentación
 
-- Si el entorno virtual no se activa: `rm -rf venv-personal && python3 -m venv venv-personal`
-- Si hay conflictos de puerto: cambiar --port en uvicorn
-- Si Git no funciona: verificar `git config user.name` y `git config user.email`
-- Si necesitas cambiar el email: usar el email privado de GitHub desde Settings → Emails
+http://127.0.0.1:8000/docs
 
+## Reflexión
+
+Pienso que la organización y la verificación de que el entorno (tanto virtual como real) estén en óptimas condiciones, es muy importante a la hora de trabajar con este tipo de código.
+
+Crear una Api no es complicaado, solo hay que tener paciencia y lucidez sobre lo que se está haciendo.
+
+```
